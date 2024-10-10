@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain import LLMChain
 import os
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyCa7myHBKKnTkEKoEBmKLEYrOYT008H418"
+os.environ['GOOGLE_API_KEY'] = st.secrets['GOOGLE_API_KEY']
 
 model = ChatGoogleGenerativeAI(model = "gemini-1.5-flash-latest")
 
