@@ -26,7 +26,7 @@ Analyze potential challenges and risks in the external environment. What competi
 Contextual Note: "Consider industry trends, customer feedback, and competitive landscape while formulating your analysis."
 
 Also start as follows:
-Company/Product Name as the Main Heading :  leave blank
+Company/Product Name as the Main Heading 
 
 1. Strengths
 Content.....
