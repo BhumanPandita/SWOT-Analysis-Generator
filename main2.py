@@ -58,10 +58,13 @@ st.set_page_config(
 st.header("SWOT Generator 📑")
 
 st.subheader("Generate comprehensive SWOT analyses in seconds 😌")
+st.text("""While the SWOT Analysis Generator provides valuable insights, results may 
+not always be accurate and should be considered as a starting point for 
+further evaluation.""")
 
 name = st.text_input("Name of the Company/Product?")
 
-inds = st.text_input("Industry which it belongs to?")
+inds = st.text_input("Which Industry it belongs to?")
 
 audn = st.text_input("Who is the target_audience?")
 
